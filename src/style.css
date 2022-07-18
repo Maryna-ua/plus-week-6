@@ -11,26 +11,36 @@ video {
   z-index: -1;
 }
 
+form {
+  text-align: center;
+}
 .weather-container {
   margin: 75px auto;
   max-width: 500px;
   height: 550px;
-  background: rgb(87, 89, 102);
+  background: rgb(156 153 159);
   opacity: 75%;
   border-radius: 10px;
-  box-shadow: 0.5px 1px 3px white;
+  box-shadow: 0.5px 1px 3px rgb(133, 133, 133);
 }
 .city-choice {
   text-align: center;
   padding: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
+
 input {
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 300px;
   height: 35px;
-  width: 310px;
   border-radius: 4px;
 }
 
 button {
+  padding-left: 0px;
+  padding-right: 0px;
   padding: 4px 7px;
   background-color: white;
   margin-bottom: 4px;
@@ -106,7 +116,7 @@ h3 {
 .card {
   color: white;
   border: 1px solid white;
-  background: rgb(87, 89, 102);
+  background: rgb(156 153 159);
 }
 
 .temp-day {
@@ -127,8 +137,8 @@ br {
 
 .creator {
   position: relative;
-  bottom: 70px;
-  left: 510px;
+  bottom: 68px;
+  right: 110px;
 }
 
 .source {
